@@ -238,7 +238,6 @@ An example of a two server deployment is shown below.  The first server holds th
     - role: elastic.elasticsearch
   vars:
     es_instance_name: "node2"
-    es_api_port: 9201
     es_config:
       discovery.zen.ping.unicast.hosts: "elastic02:9300"
       http.port: 9201
